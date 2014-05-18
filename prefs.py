@@ -40,7 +40,7 @@ class Prefs():
       # Convert the named value into a colour and return
         val = self.GetObj(name)
         if val != None:
-            col = wx.Color()
+            col = wx.Colour()
             col.Set(val[0],val[1],val[2])
             return col
         else:
